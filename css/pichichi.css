@@ -697,7 +697,7 @@ body {
 #content {
 	line-height: 32px;
 	text-align: center;
-	height: 570px;
+	min-height: 570px;
 }
 
 
@@ -729,7 +729,8 @@ body {
 	margin-top: 83px;
 	margin-left: 150px;
 	line-height: 32px;
-	background-image: url('../images/map.png');	
+	background-image: url('../images/map.png');
+	background-position: 50% 50%;
 }
 
 
@@ -753,6 +754,7 @@ footer {
     list-style: none;
     position: relative;
     /*width: 100%;*/
+    overflow: hidden;
 }
  
 .cbp-rfgrid li {
