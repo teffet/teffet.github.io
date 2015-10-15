@@ -83,7 +83,7 @@ function initMap() {
   // Create a map object and specify the DOM element for display.
   var map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 34.703350, lng: 135.495865},
-    scrollwheel: true,
+    scrollwheel: false,
     styles: styleArray,
     zoom: 15
   });
