@@ -707,27 +707,13 @@ body {
 	border-bottom: 2px solid #EEE;
 	border-top: 2px solid #EEE;
 	background-color: #F9F9F9;
-	height: 600px;
-}
-
-
-#contact {
-	line-height: 32px;
-	height: 500px;
-	padding-top: 83px;
-	margin-bottom: 70px;
-	padding-left: 13%;
-	background-color: #F9F9F9;
-	float: left;
 }
 
 
 #map {
-	float: left;
-	height: 425px;
-	width: 425px;
-	margin-top: 83px;
-	margin-left: 150px;
+	height:500px;
+	width:100%;
+	margin:0;
 	line-height: 32px;
 	background-image: url('../images/map.png');
 	background-position: 50% 50%;
@@ -737,6 +723,7 @@ body {
 
 footer {
 	text-align: center;
+	margin-top: 30px;
 	margin-bottom: 70px;
 	clear: both;
 }
@@ -907,21 +894,12 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
         width: calc(100% / 5);
     }
 	
-	#content {
-	line-height: 32px;
-	text-align: center;
-	height: 770px;
-	}
 	
 	#map {
-	float: left;
 	height: 425px;
-	width: 325px;
-	margin-top: 83px;
-	margin-left: 90px;
+	margin:0;
 	line-height: 32px;
-	background-image: url('../images/map.png');	
-}
+	}
 	
 }
  
@@ -931,14 +909,6 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
         width: -webkit-calc(100% / 4);
         width: calc(100% / 4);
     }
-	
-	#content {
-	line-height: 32px;
-	text-align: center;
-	height: 670px;
-	}
-	
-	#map {display: none;}
 	
 	#intro {
 	padding-top: 100px;
@@ -1015,7 +985,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	height: 770px;
 	}
 	
-	#map {display: none;}
+	#map {height:300px;}
 	
 	
 	#intro {

@@ -77,4 +77,112 @@ if ( typeof define === 'function' && define.amd ) {
   window.classie = classie;
 }
 
+
+
+function initMap() {
+  // Create a map object and specify the DOM element for display.
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 34.703350, lng: 135.495865},
+    scrollwheel: false,
+    styles: styleArray,
+    zoom: 8
+  });
+}
+var styleArray = [
+    {
+        "featureType": "landscape",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 60
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 40
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.province",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "lightness": 30
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#ef8c25"
+            },
+            {
+                "lightness": 40
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#b6c54c"
+            },
+            {
+                "lightness": 40
+            },
+            {
+                "saturation": -40
+            }
+        ]
+    },
+    {}
+]
+initMap();
+
+
 })( window );
