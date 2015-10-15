@@ -85,7 +85,7 @@ function initMap() {
     center: {lat: 34.703350, lng: 135.495865},
     scrollwheel: false,
     styles: styleArray,
-    zoom: 8
+    zoom: 15
   });
 }
 var styleArray = [
