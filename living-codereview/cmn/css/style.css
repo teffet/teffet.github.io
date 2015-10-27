@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+/*--------------------
+  reset setting
+--------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+font-size:100%;
+font:inherit;
+vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display:block;
+}
+body {line-height:1;}
+img {line-height:0;}
+ol, ul {list-style:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+img {vertical-align:top;}
+
+/*--------------------
+  global setting
+--------------------*/
+body {
+	font:75%/1.231 Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+	line-height:1.5;
+	-webkit-text-size-adjust:100%;
+	color:#333;
+	background-color:#F9F7F1;
+	padding:60px 0;
+}
+a:link,a:visited{ color:#ef7a00; text-decoration:underline; }
+a:hover,a:active{ color:#f5af67; }
+a{ -webkit-tap-highlight-color:rgba(30,15,190,0.3); -webkit-touch-callout:none; }
+
+.clearfix {zoom:1;}
+.clearfix:after {
+  content: ""; 
+  display: block; 
+  clear: both;
+  overflow:hidden;
+}
+/*--------------------
+  margin
+--------------------*/
+.mb0 { margin-bottom:0px !important; }
+.mb5 { margin-bottom:5px !important; }
+.mb10 { margin-bottom:10px !important; }
+.mb15 { margin-bottom:15px !important; }
+.mb20 { margin-bottom:20px !important; }
+.mb25 { margin-bottom:25px !important; }
+.mb30 { margin-bottom:30px !important; }
+.mb35 { margin-bottom:35px !important; }
+.mb40 { margin-bottom:40px !important; }
+.mb45 { margin-bottom:45px !important; }
+.mb50 { margin-bottom:50px !important; }
+.mb60 { margin-bottom:60px !important; }
+.mb70 { margin-bottom:70px !important; }
+.mb80 { margin-bottom:80px !important; }
+.mb90 { margin-bottom:90px !important; }
+.mb100 { margin-bottom:100px !important; }
+
+/*--------------------
+common parts
+--------------------*/
+.wrapper { width:952px; margin:0 auto; font-size:116.7%; }
+/*--------------------
+  header
+--------------------*/
+/*--------------------
+grobalNavi
+--------------------*/
+/*--------------------
+footer
+--------------------*/
+/*--------------------
+index.html
+--------------------*/
+.panel-three {
+	margin:0 0 20px;
+}
+.panel-three.last-child {
+	margin:0 0 60px;
+}
+.panel-three li {
+	width:317px;
+	float:left;
+}
+.panel-three li.last-child {
+	width:318px;
+}
+.panel-three li a,
+.panel-three li span {
+	display:block;
+	text-decoration:none;
+	background-color:#fff;
+	color:#333;
+}
+.panel-three li a:hover {
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow:    0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+	box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.panel-three li .img img {
+	vertical-align:top;
+}
+.panel-three li .ttl {
+	padding:14px 29px 15px;
+	border:1px solid #e6e6e6;
+	border-top:none;
+	border-right:none;
+	font-size:114.3%;
+}
+.panel-three li.last-child .img,
+.panel-three li.last-child .ttl {
+	border-right:1px solid #e6e6e6;
+}
+
+.information {
+	padding:51px 52px 50px;
+	background-color:#fff;
+	border:1px solid #e6e6e6;
+}
+.information .title {
+	border-bottom:1px solid #C2C1C1;
+	padding:0 0 2px;
+	margin:0 0 21px;
+}
+.information .title h2 {
+	font-size:142.9%;
+	float:left;
+}
+.information .title p {
+	float:right;
+}
+.information .title p a {
+	text-decoration:none;
+	color:#333;
+	display:inline-block;
+	padding:0 0 0 18px;
+	background:url(../img/arw_01.png) no-repeat 0 50%;
+}
+.information dt {
+	clear:none;
+	float:left;
+	width:125px;
+	margin:0 0 12px;
+	font-size:92.9%;
+}
+.information dd {
+	padding:0 0 0 125px;
+	margin:0 0 15px;
+	font-size:92.9%;
+}
+
+
