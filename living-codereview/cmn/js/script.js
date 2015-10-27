@@ -55,8 +55,6 @@ URL : http://www.atokala.com/
 Copyright : (C)atokala
 Author : Masahiro Abe
 --------------------------------------------*/
-var atscroll = new ATScroll();
-atscroll.load();
 var ATScroll = function(vars) {
     //コンストラクタ
     var _self = this;
@@ -312,3 +310,5 @@ var ATScroll = function(vars) {
         });
     }
 };
+var atscroll = new ATScroll();
+atscroll.load();
